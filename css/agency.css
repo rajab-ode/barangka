@@ -169,6 +169,7 @@ img::-moz-selection {
   }
 }
 
+
 header.masthead {
   text-align: center;
   color: white;
@@ -180,6 +181,11 @@ header.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  z-index: 10;
+}
+header.masthead .container{
+  background: rgba(0, 0, 0, 0.192);
+  z-index: 100;
 }
 
 header.masthead .intro-text {
